@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const axios = require("axios");
 mongoose
-  .connect("mongodb+srv://outlook:outlook@outlook.i3hup.mongodb.net/")
+  // .connect("mongodb+srv://outlook:outlook@outlook.i3hup.mongodb.net/")
+  .connect("mongodb+srv://anonymous:anonymous@cluster0.3hdvk.mongodb.net/myFirstDatabase")
   .then((result) => {
     console.log("mongoose connected");
   })
